@@ -1,5 +1,0 @@
-title: "GSoC '25"
-description: "A small report of my contribution in building Mesa-LLM for my GSoC tenure"
-remote_theme: abhinavs/moonwalk
-plugins:
-  - jekyll-remote-theme
