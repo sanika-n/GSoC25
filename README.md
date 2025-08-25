@@ -11,12 +11,12 @@ You can find the link to the repository [here](https://github.com/wang-boyu/mesa
 - These modules built the base for the library. For further functionalities, we implemented modules like recording(so that the runs of the simulation can be recorded and reproduced), Parallel Stepping ( for faster simulation speeds) and Tools (to manage the actions/functions that the llm could carry out).
 - To properly test out our framework, we built two working examples: Epstein's Civil Violence Model and The Negotiation Model. The civil violence model is based on a research paper and the negotiation model was built as a toy model for beginners to get the hang of the framework.
 - Here is a small snippet from solara that is running the visualization for The Civil Violence Model:
- <img width="1905" height="1034" alt="image" src="https://github.com/user-attachments/assets/9b6a5be7-5eeb-4f54-a2a9-4b7a9c62b15c" />
+ ![Civil Violence Model](https://github.com/user-attachments/assets/9b6a5be7-5eeb-4f54-a2a9-4b7a9c62b15c)
 
 - Towards the end, we shifted our attention to test and ensure proper coverage for all the functions.
 
 ## Brief Overview of the Architecture
-<img width="1370" height="737" alt="image" src="https://github.com/user-attachments/assets/63bbeb9f-6774-427f-b8a1-da1408e55660" />
+![Architecture](https://github.com/user-attachments/assets/63bbeb9f-6774-427f-b8a1-da1408e55660)
 
 
 ## Challenges
@@ -25,10 +25,10 @@ There were a couple of challenges we faced along the way, the major one being th
 Initially we had to do a lot of brainstorming to figure out the perfect way to design our architecture. But after a lot of ideation we were able to come up with a working architecture. Another challenge we faced was with the presentation of the output. Mesa primarily used Solara, but we designed to use the terminal as well so that the textual reasoning could be displayed to the user. We tried to structure it out and make it as presentable and comprehensive as possible.
 Here is a snippet of a part of the terminal output from The Civil Violence Model and The Negotiation Model:
 ### Civil Violence Model
-<img width="1571" height="552" alt="image" src="https://github.com/user-attachments/assets/1b7459ed-04ed-454f-ac9c-cd38fa4643c2" />  
+![Civil Violence Terminal Output](https://github.com/user-attachments/assets/1b7459ed-04ed-454f-ac9c-cd38fa4643c2) 
 
 ### The Negotiation Model
-<img width="1609" height="683" alt="image" src="https://github.com/user-attachments/assets/dafbdbff-76f6-40eb-8f5b-1266da030e8f" />
+![Negotiation Model Terminal Output](https://github.com/user-attachments/assets/dafbdbff-76f6-40eb-8f5b-1266da030e8f)
 
 
 ## General Workflow
